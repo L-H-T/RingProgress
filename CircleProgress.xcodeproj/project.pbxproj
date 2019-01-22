@@ -15,6 +15,7 @@
 		4AF0F63221F71D2B00946623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0F63121F71D2B00946623 /* main.m */; };
 		4AF0F63C21F71D2B00946623 /* CircleProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0F63B21F71D2B00946623 /* CircleProgressTests.m */; };
 		4AF0F64721F71D2B00946623 /* CircleProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0F64621F71D2B00946623 /* CircleProgressUITests.m */; };
+		4AF0F65721F71D9500946623 /* RingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF0F65621F71D9500946623 /* RingProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4AF0F64221F71D2B00946623 /* CircleProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF0F64621F71D2B00946623 /* CircleProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressUITests.m; sourceTree = "<group>"; };
 		4AF0F64821F71D2B00946623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF0F65521F71D9500946623 /* RingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingProgressView.h; sourceTree = "<group>"; };
+		4AF0F65621F71D9500946623 /* RingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		4AF0F62121F71D2900946623 /* CircleProgress */ = {
 			isa = PBXGroup;
 			children = (
+				4AF0F65421F71D3C00946623 /* progressView */,
 				4AF0F62221F71D2900946623 /* AppDelegate.h */,
 				4AF0F62321F71D2900946623 /* AppDelegate.m */,
 				4AF0F62521F71D2900946623 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				4AF0F64821F71D2B00946623 /* Info.plist */,
 			);
 			path = CircleProgressUITests;
+			sourceTree = "<group>";
+		};
+		4AF0F65421F71D3C00946623 /* progressView */ = {
+			isa = PBXGroup;
+			children = (
+				4AF0F65521F71D9500946623 /* RingProgressView.h */,
+				4AF0F65621F71D9500946623 /* RingProgressView.m */,
+			);
+			path = progressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF0F62721F71D2900946623 /* ViewController.m in Sources */,
+				4AF0F65721F71D9500946623 /* RingProgressView.m in Sources */,
 				4AF0F63221F71D2B00946623 /* main.m in Sources */,
 				4AF0F62421F71D2900946623 /* AppDelegate.m in Sources */,
 			);
