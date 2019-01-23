@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "RingProgressView.h"
+#import "GradientRingView.h"
 
 @interface ViewController ()
 
@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    RingProgressView * progressView = [[RingProgressView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    GradientRingView * progressView = [[GradientRingView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:progressView];
     
     // Do any additional setup after loading the view, typically from a nib.
